@@ -55,7 +55,7 @@ window.addEventListener('scroll', checkScroll);
 
 //Percentage Scrolled
 const percentLabel = document.querySelector('#percent');
-const progressBar = document.querySelector('#progressBar');
+// const progressBar = document.querySelector('#progressBar');
 
 const percentageScrolled = () => {
 	const scrollTop = window.scrollY;
@@ -64,7 +64,7 @@ const percentageScrolled = () => {
 	const scrollPercent = scrollTop / (docHeight - winHeight);
 	const scrollPercentRounded = Math.round(scrollPercent * 100);
 	percentLabel.innerHTML = scrollPercentRounded;
-	progressBar.style.width = scrollPercentRounded + '%';
+	// progressBar.style.width = scrollPercentRounded + '%';
 };
 
 window.addEventListener('scroll', percentageScrolled);

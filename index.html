@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <link rel="icon" type="image/png" href="./assets/DM_favicon.jpg">
+    <title>Dhruv Manchanda</title>
     <script src="https://kit.fontawesome.com/9a576fbd78.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="progressBar"></div>
+    <!-- <div id="progressBar"></div> -->
     <div id="percentScrolled">
         <p><span id="percent">0</span>% viewed</p>
     </div>
@@ -29,24 +31,23 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
         <div id="name-social-container">
             <div class="text-center">
-                <h1 id="my-name">My Name</h1>
+                <h1 id="my-name">Dhruv Manchanda</h1>
             </div>
             <div>
                 <ul class="horizontal-list text-center social-icons">
-                    <li><a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                    <li><a href="https://github.com/dhruv101"><i class="fab fa-github fa-lg"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/dhruv-manchanda-24175a170/"><i
+                                class="fab fa-linkedin-in fa-lg"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -55,16 +56,16 @@
     <main>
         <section id="about">
             <div id="my-img">
-                <img src="./assets/macbook_mouse.jpg" alt="">
+                <img src="./assets/profile-pic.jpg" alt="">
             </div>
             <div id="about-para">
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and <span class="text-highlight">typesetting
-                        industry</span>. Lorem Ipsum has been the industry's standard <span class="text-highlight">dummy
-                        text ever</span> since the 1500s, when an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s <span
-                        class="text-highlight">with the release of Letraset</span> sheets containing Lorem Ipsum.
+                    I am a <span class="text-highlight">Computer Science Student</span> and a <span
+                        class="text-highlight">Full Stack Web Developer</span> based in Delhi, India. I design and build
+                    stuff. I want to make things that make a difference. I have excellent communication skills, enabling
+                    me to effectively
+                    communicate with a wide range of people. I am a good timekeeper, always willing to learn new
+                    skills. I have a passion for web development and love to create for web and mobile devices.
                 </p>
             </div>
         </section>
@@ -78,75 +79,52 @@
             <div id="skills-display">
                 <div class="skill-progress">
                     <div id="skill-1" data-bar-width="85">
+                        <span class="skill-name">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div id="skill-2" data-bar-width="85">
+                        <span class="skill-name">Express.js</span>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div id="skill-3" data-bar-width="85">
+                        <span class="skill-name">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div id="skill-4" data-bar-width="80">
                         <span class="skill-name">HTML</span>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div id="skill-2" data-bar-width="95">
+                    <div id="skill-5" data-bar-width="80">
                         <span class="skill-name">CSS</span>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div id="skill-3" data-bar-width="45">
-                        <span class="skill-name">Javascript</span>
+                    <div id="skill-6" data-bar-width="85">
+                        <span class="skill-name">JavaScript</span>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div id="skill-4" data-bar-width="60">
-                        <span class="skill-name">NodeJs</span>
+                    <div id="skill-7" data-bar-width="90">
+                        <span class="skill-name">C++</span>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div id="skill-5" data-bar-width="75">
-                        <span class="skill-name">Express</span>
+                    <div id="skill-8" data-bar-width="90">
+                        <span class="skill-name">Python</span>
                     </div>
                 </div>
                 <div class="skill-progress">
-                    <div id="skill-6" data-bar-width="90">
-                        <span class="skill-name">MongoDB</span>
+                    <div id="skill-9" data-bar-width="77">
+                        <span class="skill-name">React</span>
                     </div>
                 </div>
-
-            </div>
-        </section>
-
-        <section id="experience">
-            <h1 class="section-heading">
-                <span><i class="fas fa-briefcase"></i></span>
-                <span>Work Experience</span>
-            </h1>
-
-            <div class="timeline">
-                <div class="timeline-box">
-                    <h3 class="experience-designation">Designation</h3>
-                    <h4 class="experience-company-name">Company Name</h4>
-                    <h5 class="experience-duration">Month YYYY - Month YYYY</h5>
-                    <p class="experience-description">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                        a type specimen book.</p>
-                </div>
-                <div class="timeline-box">
-                    <h3 class="experience-designation">Designation</h3>
-                    <h4 class="experience-company-name">Company Name</h4>
-                    <h5 class="experience-duration">Month YYYY - Month YYYY</h5>
-                    <p class="experience-description">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                        a type specimen book.</p>
-                </div>
-                <div class="timeline-box">
-                    <h3 class="experience-designation">Designation</h3>
-                    <h4 class="experience-company-name">Company Name</h4>
-                    <h5 class="experience-duration">Month YYYY - Month YYYY</h5>
-                    <p class="experience-description">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                        a type specimen book.</p>
-                </div>
-                <div class="timeline-divider">
-                    <div class="timeline-traveller">
-                        <i class="fas fa-plane"></i>
+                <div class="skill-progress">
+                    <div id="skill-10" data-bar-width="77">
+                        <span class="skill-name">Machine Learning</span>
                     </div>
                 </div>
             </div>
@@ -160,31 +138,22 @@
 
             <div class="timeline">
                 <div class="timeline-box">
-                    <h3 class="education-degree">Degree</h3>
-                    <h4 class="education-institute-name">Institute Name</h4>
-                    <h5 class="education-duration">Month YYYY - Month YYYY</h5>
-                    <p class="education-description">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                        a type specimen book.</p>
+                    <h3 class="education-degree">B.Tech Computer Science</h3>
+                    <h4 class="education-institute-name">Bharati Vidyapeeth College Of Engineering</h4>
+                    <h5 class="education-duration">Aug 2018 - Currently</h5>
+                    <p class="education-description">CGPA: 9.0/10.0 (till 5<sup>th</sup> semester)</p>
                 </div>
                 <div class="timeline-box">
-                    <h3 class="education-degree">Degree</h3>
-                    <h4 class="education-institute-name">Institute Name</h4>
-                    <h5 class="education-duration">Month YYYY - Month YYYY</h5>
-                    <p class="education-description">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                        a type specimen book.</p>
+                    <h3 class="education-degree">XII, Senior Secondary</h3>
+                    <h4 class="education-institute-name">Hansraj Model School</h4>
+                    <h5 class="education-duration">Mar 2017 - Mar 2018</h5>
+                    <p class="education-description">Percentage: 92.8%</p>
                 </div>
                 <div class="timeline-box">
-                    <h3 class="education-degree">Degree</h3>
-                    <h4 class="education-institute-name">Institute Name</h4>
-                    <h5 class="education-duration">Month YYYY - Month YYYY</h5>
-                    <p class="education-description">Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                        a type specimen book.</p>
+                    <h3 class="education-degree">X, Secondary</h3>
+                    <h4 class="education-institute-name">Hansraj Model School</h4>
+                    <h5 class="education-duration">Mar 2015 - Mar 2016</h5>
+                    <p class="education-description">CGPA: 10.0/10.0</p>
                 </div>
                 <div class="timeline-divider">
                     <div class="timeline-traveller">
@@ -194,47 +163,67 @@
             </div>
         </section>
 
-        <section id="portfolio">
+        <section id="projects">
             <h1 class="section-heading">
-                <span><i class="fas fa-th-list"></i></span>
-                <span> Portfolio </span>
+                <span><i class="fas fa-briefcase"></i></span>
+                <span>Projects</span>
             </h1>
 
-            <div id="portfolio-container">
-                <div class="portfolio-image-container">
-                    <img src="./assets/portfolio-1.png" alt="">
-                    <div class="portfolio-details">
-                        <p>Write here basic details about the project.</p>
+            <div class="timeline">
+                <div class="timeline-box">
+                    <h3 class="project-name">YelpCamp</h3>
+                    <h5 class="project-link"><a href="https://yelp-camp-101.herokuapp.com/">Site Link</a></h5>
+                    <p class="project-description">YelpCamp is a full <b>CRUD</b> web application that includes
+                        <b>Authentication</b>, <b>Authorization</b>, and <b>RESTful routing</b>.
+                        Allows users to sign up to add new campgrounds or to comment on a campground. It is built using
+                        Node.js, Express.js, MongoDB for backend and HTML, CSS, JavaScript for
+                        frontend.</p>
+                </div>
+                <div class="timeline-box">
+                    <h3 class="project-name">ChatUp</h3>
+                    <h5 class="project-link"><a href="https://github.com/dhruv101/ChatUp">Github Repo</a></h5>
+                    <p class="project-description">ChatUp is a <b>Realtime</b> and Interactive <b>Chatting
+                            Application</b> on Web platform with rooms functionality. It is built using Node.js,
+                        Express.js and <b>Socket.io</b> with Vanilla JavaSript on the frontend.</p>
+                </div>
+                <div class="timeline-box">
+                    <h3 class="project-name">Resume</h3>
+                    <h5 class="project-link"><a href="https://github.com/dhruv101/Resume">Github Repo</a></h5>
+                    <p class="project-description">Resume is a website consisting of my skills, projects done and
+                        various other fields.
+                        It is built using HTML, CSS and JavaScript.</p>
+                </div>
+                <div class="timeline-divider">
+                    <div class="timeline-traveller">
+                        <i class="fas fa-plane"></i>
                     </div>
                 </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/portfolio-2.png" alt="">
-                    <div class="portfolio-details">
-                        <p>Write here basic details about the project.</p>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h1 class="section-heading">
+                <span><i class="fas fa-th-list"></i></span>
+                <span> Certifications </span>
+            </h1>
+
+            <div id="certificates-container">
+                <div class="certificate-image-container">
+                    <img src="./assets/CB.PNG" alt="">
+                    <div class="certificate-details">
+                        <p>Completed Machine Learning Master Course from Coding Blocks (05/2020 - 11/2020)</p>
                     </div>
                 </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/portfolio-3.png" alt="">
-                    <div class="portfolio-details">
-                        <p>Write here basic details about the project.</p>
+                <div class="certificate-image-container">
+                    <img src="./assets/Excel.PNG" alt="">
+                    <div class="certificate-details">
+                        <p>Completd Excel- Basic to Advanced Course from Champ Excel (05/2020 - 05/2020)</p>
                     </div>
                 </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/portfolio-4.png" alt="">
-                    <div class="portfolio-details">
-                        <p>Write here basic details about the project.</p>
-                    </div>
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/portfolio-5.png" alt="">
-                    <div class="portfolio-details">
-                        <p>Write here basic details about the project.</p>
-                    </div>
-                </div>
-                <div class="portfolio-image-container">
-                    <img src="./assets/portfolio-6.png" alt="">
-                    <div class="portfolio-details">
-                        <p>Write here basic details about the project.</p>
+                <div class="certificate-image-container">
+                    <img src="./assets/CN.PNG" alt="">
+                    <div class="certificate-details">
+                        <p>Completed Data Structures & Algo with C++ Course from Coding Ninjas (06/2019 - 09/2019)</p>
                     </div>
                 </div>
             </div>
@@ -256,9 +245,7 @@
                     </form>
                 </div>
                 <div id="contact-details-container">
-                    <h3> Get In touch </h3>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h2> Get In Touch </h2>
                     <h3> My Address </h3>
                     <div class="contact-details-info-container">
                         <i class="fas fa-map-marker-alt"></i>
@@ -266,22 +253,21 @@
                     </div>
                     <div class="contact-details-info-container">
                         <i class="fas fa-mobile-alt"></i>
-                        <span>9999999999</span>
+                        <span>+91-9873671516</span>
                     </div>
                     <div class="contact-details-info-container">
                         <i class="far fa-envelope"></i>
-                        <span>myemail@gmail.com</span>
+                        <span>dhruvmanchanda2000@gmail.com</span>
                     </div>
                 </div>
             </div>
 
             <div>
                 <ul class="horizontal-list social-icons">
-                    <li><a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-github fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                    <li><a href="https://github.com/dhruv101"><i class="fab fa-github fa-lg"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/dhruv-manchanda-24175a170/"><i
+                                class="fab fa-linkedin-in fa-lg"></i></a>
+                    </li>
                 </ul>
             </div>
         </section>
