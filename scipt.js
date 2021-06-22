@@ -68,3 +68,9 @@ const percentageScrolled = () => {
 };
 
 window.addEventListener('scroll', percentageScrolled);
+
+//Preventing form to submit
+const contactForm = document.querySelector('#contact-form');
+contactForm.addEventListener('submit', e => {
+	e.preventDefault();
+});
